@@ -250,6 +250,24 @@ echo "<br>";
 
     // 18/11/24
     // function
+    function greetMe() {
+        echo "good afternoon";
+    }
+    greetMe();
+
+    function streetName ($sname) {
+        echo "$sname Asaba. <br>";
+    } 
+
+    streetName("DLA");
+    streetName("ezenei");
+
+    function HomeAddress ($snumber, $sname) {
+        echo "$snumber street $sname Asaba. <br>";
+    }
+
+    HomeAddress("5th" ,"DLA");
+    HomeAddress("7th" , "Ezenei"); 
 
 
 
